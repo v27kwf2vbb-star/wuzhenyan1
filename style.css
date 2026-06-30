@@ -656,6 +656,106 @@ img { display: block; max-width: 100%; }
   line-height: 1.6;
 }
 
+.formula-basis { margin-top: 30px; }
+.formula-basis__heading { align-items: center; }
+
+.evidence-card {
+  margin-bottom: 12px;
+  padding: 18px 16px;
+  color: #765b48;
+  background: rgba(255,251,241,.76);
+  border: 1px solid var(--line);
+  border-radius: 5px 17px 5px 17px;
+  box-shadow: 0 8px 22px rgba(91,42,26,.06);
+}
+
+.evidence-card--catalogue {
+  background: linear-gradient(135deg, rgba(225,228,202,.82), rgba(255,251,241,.78));
+  border-color: rgba(125,134,85,.23);
+}
+
+.evidence-card h4 {
+  margin: 0 0 12px;
+  color: #572719;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: .06em;
+}
+
+.evidence-card h4 span {
+  display: inline-block;
+  padding-bottom: 5px;
+  border-bottom: 2px solid rgba(189,131,50,.45);
+}
+
+.evidence-card p,
+.role-list li,
+.source-note p {
+  color: #765b48;
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 12px;
+  line-height: 1.9;
+  text-align: justify;
+}
+
+.evidence-card p { margin: 0; }
+
+.evidence-card__note {
+  margin-top: 12px !important;
+  padding: 10px 11px;
+  color: #6f7750 !important;
+  background: rgba(225,228,202,.48);
+  border-left: 3px solid rgba(125,134,85,.55);
+  border-radius: 0 6px 6px 0;
+}
+
+.evidence-block {
+  margin-top: 16px;
+  padding-top: 15px;
+  border-top: 1px dashed rgba(101,54,28,.17);
+}
+
+.evidence-block h5 {
+  margin: 0 0 8px;
+  color: var(--green);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: .08em;
+}
+
+.role-list {
+  display: grid;
+  gap: 11px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.role-list li {
+  padding-left: 10px;
+  border-left: 2px solid rgba(189,131,50,.28);
+}
+
+.role-list strong { color: #633827; font-weight: 600; }
+
+.source-note {
+  margin-top: 14px;
+  padding: 14px 15px;
+  background: rgba(239,222,190,.55);
+  border: 1px dashed rgba(125,38,22,.22);
+  border-radius: 8px;
+}
+
+.source-note strong {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--red);
+  font-size: 12px;
+  letter-spacing: .1em;
+}
+
+.source-note p { margin: 0; font-size: 11px; line-height: 1.75; }
+
 .notice {
   display: flex;
   gap: 10px;
